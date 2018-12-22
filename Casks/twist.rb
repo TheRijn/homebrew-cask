@@ -6,6 +6,7 @@ cask 'twist' do
   appcast 'https://downloads.twistapp.com/mac/AppCast.xml'
   name 'Twist'
   homepage 'https://twistapp.com/'
+  autoupdate=true
 
   depends_on macos: '>= :el_capitan'
 
